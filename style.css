@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* background-color: #4a47a3; */
+}
+body{
+    background-color: #4a47a3;
+}
+.main-div{
+    margin-top: 40px;
+}
+.row{
+    width: 450px;
+    height: 150px;
+    margin: auto;
+    display: flex;
+}
+
+.row-1, .row-2{
+    border-bottom: 5px #4a47a3 solid;
+}
+
+.col-1, .col-2{
+    border-right: 5px #4a47a3 solid;
+}
+
+.box{
+    width: 450px;
+    background-color: #a7c5eb;
+}
+.box{
+    border-radius: 20px;
+    font-size: 4rem;
+    padding-left: 3.3rem;
+    padding-top: 1.5rem;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+}
+.heading{
+    font-size: 35px;
+    text-align: center;
+    font-family: 'Akaya Telivigala', cursive;
+    letter-spacing: 3px;
+}
+.display{
+    text-align: center;
+    font-weight: 300;
+    font-size: 25px;
+    font-family: 'Akaya Telivigala', cursive;
+}
+.data{
+    text-align: center;
+    font-weight: 300;
+    font-size: 25px;
+    font-family: 'Akaya Telivigala', cursive;
+}
+.result{
+    text-align: center;
+    font-weight: 300;
+    font-size: 25px;
+    font-family: 'Akaya Telivigala', cursive;
+}
+.game--restart{
+    padding: 12px 15px;
+    cursor: pointer;
+    background-color: yellow ;
+    border:1px solid yellow;
+    border-radius: 4px;
+    transform: scale(1);
+    transition: transform 200ms ease-in-out;
+    outline: none;
+    margin-left: 44rem;
+    color: black;
+  }
+  .game--restart:active{
+    transform: scale(1.4);
+  }
+  .game--restart:hover{
+    background-color: white ;
+    color: black;
+  }
